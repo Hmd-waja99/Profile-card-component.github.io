@@ -2,31 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
 </head>
 
 <body>
+  <main>
+    <img src="images/bg-pattern-card.svg" alt="pattern card">
+    <img class="photo" src="images/image-victor.jpg" alt="image victor">
+    <p class="name">Victor Crest<span class="age">26</span></p>
+    <p class="country"> <span>London</span> </p>
+    <div class="line"></div>
 
-    <img src="images/bg-pattern-top.svg" alt="" class="background-top">
-    <img src="images/bg-pattern-bottom.svg" alt="" class="background-bottom">
-    
-    <div class="cart">
-        <img src="images/bg-pattern-card.svg" alt="" class="couverture">
-        <img class="photo" src="images/20220226_145706.jpg" alt="">
-        <span class="name">Ahmed waja <span class="age">21</span></span>
-        <span class="frome"><small>Tunisia </small></span>
-        <div class="bar"></div>
-        <span class="followers">80K <br> <small>followers </small></span>
-        <span class="likes">803K <br> <small> likes </small></span>
-        <span class="photos">1.4K <br> <small> photos</small></span>
-    </div>
+    <ul style="list-style-type:none">
+      <li> 80K <br> <span> Followers</span></li>
+      <li>803K <br> <span>Likes</span></li>
+      <li>1.4K <br> <span>Photos</span></li>
+    </ul>
+
+  </main>
+  <footer>
+    <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        title="Frontend Mentor">Frontend Mentor</a>.
+      Coded by <a href="#" title="Ahmed">Ahmed</a>.</p>
+  </footer>
+
 </body>
 
 </html>
